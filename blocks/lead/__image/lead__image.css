@@ -1,0 +1,14 @@
+.lead__image {
+  display: block;
+  max-width: 984px;
+  width: 100%;
+  margin: 0 auto 8px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    background-color: red;
+  }
+
+}
