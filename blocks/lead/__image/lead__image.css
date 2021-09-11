@@ -6,9 +6,24 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .page {
     background-color: red;
+  }
+
+  .lead__image {
+    max-width: calc((100vw - 1024px)*0.21870 + 928px);
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    background-color: green;
+  }
+
+  .lead__image {
+    max-width:  928px;
   }
 
 }
