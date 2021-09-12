@@ -4,3 +4,27 @@
   align-items: center;
   margin: 0 48px 56px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    margin-bottom: calc((100vw - 1024px) * 0.03125 + 48px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin:0 calc((100vw - 768px) * 0.09375 + 24px) 48px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    margin:0 calc((100vw - 320px) * 0.01785 + 16px) 48px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header {
+    margin:0 16px 48px;
+  }
+}
