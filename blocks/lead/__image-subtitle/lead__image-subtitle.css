@@ -4,9 +4,19 @@
   font-weight: normal;
   font-size: 10px;
   line-height: 1.40;
-
   letter-spacing: 1.5px;
   text-transform: uppercase;
-
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__image-subtitle {
+    margin-left: calc(24px - (100vw - 768px) * 0.09375);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image-subtitle {
+    margin-left: 16px;
+  }
 }
