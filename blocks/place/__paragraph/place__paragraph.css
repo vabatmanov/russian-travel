@@ -7,3 +7,32 @@
   color: #FFFFFF;
   margin: 0 0 26px;
 }
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin: 0 16px 25px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin: 0 16px 25px;
+  }
+}
+
+/*на разрешениях с 1024 до бессконечность чередуется отступ от 26-27px, не думаю что критично
+трогать не буду, оставлю 26px. на контрольных точках в +/- 10px должно попадать.
+*/
