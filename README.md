@@ -21,3 +21,4 @@
  - Знакомство с Figma
  - и многие другие.
 
+[Ссылка на проект](https://vabatmanov.github.io/russian-travel/)
