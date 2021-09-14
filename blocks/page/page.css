@@ -4,9 +4,11 @@
   min-width: 320px;
   margin: 0 auto;
   padding-top: 28px;
+  padding-bottom: 24px;
   font-family: 'Inter', Arial, sans-serif;
 }
 
+/*
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page {
     background-color: green;
@@ -17,18 +19,18 @@
   .page {
     background-color: orange;
   }
-}
+}*/
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page {
-    background-color: pink;
+    /*background-color: pink;*/
     padding-top: calc((100vw - 320px) * 0.026785 + 16px);
   }
 }
 
 @media screen and (max-width: 319px) {
   .page {
-    background-color: skyblue;
+    /*background-color: skyblue;*/
     padding-top: 16px;
   }
 }

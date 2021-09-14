@@ -1,10 +1,13 @@
 @import url(../vendor/normalize.css);
 
+/*шрифты*/
 @import url(../vendor/font.css);
+
+/*Затемнение ссылок*/
+@import url(../blocks/link-hover/link-hover.css);
 
 
 @import url(../blocks/page/page.css);
-
 
 /*------------------HEADER------------------*/
 @import url(../blocks/header/header.css);
@@ -59,3 +62,4 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu-links/footer__menu-links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
