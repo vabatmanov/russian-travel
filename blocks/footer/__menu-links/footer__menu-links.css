@@ -6,7 +6,7 @@
 @media screen and (max-width: 767px) {
   .footer__menu-links {
       flex-direction: column;
-      gap: 16px;
+      gap: 32px;
       margin-bottom: 48px;
     }
 }

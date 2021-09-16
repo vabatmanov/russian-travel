@@ -6,7 +6,7 @@
 /*Затемнение ссылок*/
 @import url(../blocks/link-hover/link-hover.css);
 
-
+@import url(../blocks/origin/origin.css);
 @import url(../blocks/page/page.css);
 
 /*------------------HEADER------------------*/

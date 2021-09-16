@@ -1,5 +1,5 @@
 .place__url-heading {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -11,31 +11,13 @@
   margin: 0 0 12px 0;
 }
 
-.place__url-heading:nth-child(1) {
-  line-height: 1;
-}
+/*
+Добрый день, стиль удалил, но если внимательно рассмотреть макет, там присутсвует разный интерлиньяж.
+https://prnt.sc/1sgi61e первая URL
+https://prnt.sc/1sgibde последующие
+*/
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place__url-heading:nth-child(1) {
-    line-height: 1;
-  }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__url-heading {
-    line-height: 1;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .place__url-heading {
-    line-height: 1;
-    margin: 0 16px 12px;
-  }
-}
-
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     line-height: 1;
     margin: 0 16px 12px;
